@@ -1,0 +1,49 @@
+.header-box {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-transform: uppercase;
+  /* Gray Mid */
+  color: #777777;
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+}
+.select {
+  font-family: inherit;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-transform: uppercase;
+  /* Gray Mid */
+  color: #777777;
+  &__avatar {
+    background-image: url("../../images/avatar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &_marginLeft {
+    margin-left: 181px;
+  }
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  &__item {
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+    padding: 6px 12px;
+  }
+}
+.nav {
+  &_marginLeft {
+    margin-left: -181px;
+  }
+}

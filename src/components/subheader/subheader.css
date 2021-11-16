@@ -1,0 +1,48 @@
+.subheader-box {
+  background: #5b5b5b;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-list__item {
+  padding: 6px 11.5px;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.select {
+  font-family: inherit;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-transform: uppercase;
+  /* Gray Mid */
+  color: #c0c0c0;
+  background-color: inherit;
+}
+
+.button__subheader {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+  text-transform: uppercase;
+  /* New Gray */
+  color: #c0c0c0;
+  background-color: inherit;
+}
+/*# sourceMappingURL=subheader.css.map */
